@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    display: block;
+}
+
 #wrapper{
     margin: 0 auto;
     width: 50%;
@@ -92,6 +96,8 @@ form {
     width: 50%;
     margin-top: 5%;
     margin-right: 30%;
+    border: 2px solid rgb(169, 207, 169);
+    padding: 2%;
 }
 
 #qu-form{
@@ -153,7 +159,7 @@ form {
 
     form {
         width:90%;
-        margin-top: 5%;
+        margin-top: 15%;
         margin-right: 3%;
     }
 
