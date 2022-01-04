@@ -1,2 +1,162 @@
-* { margin: 0; padding: 0;}
+* { margin: 0; padding: 0; 
+    font-family: 'Open Sans', sans-serif;
+}
 
+#wrapper{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#content{
+    width: 87%;
+    margin-right: 5%;
+}
+
+#logo{
+    width: 140px;
+    height: 140px;
+    background-image: url('/h-client/images/logo_r.png');
+    margin-right: 93%;
+    margin-top: 2%;
+}
+
+header{
+    display: block;
+}
+
+header > h1{
+    text-align: center;
+}
+
+#title{
+    width: 70%;
+    display: flex;
+    margin-right: 15%;
+    justify-content: center;
+}
+
+#image{
+    display: inline-block;
+    position: relative;
+    top: -27%;
+    right: 0.5%;
+}
+
+#sub-title{
+    display: flex;
+    margin-top: 7%;
+    justify-content: center;
+}
+
+#follow{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+#path{
+    background-image: url('/h-client/images/path_orange_r.png');
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#submit, #submit-qu{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+#submit-qu{
+    justify-content:flex-start;
+}
+
+a{
+    text-decoration: none;
+}
+
+#age{
+    width: 20%;
+}
+
+#position{
+    width: 30%;
+}
+
+#interests{
+    width: 40%;
+}
+
+form {
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+#qu-form{
+    margin-top: 5%;
+    width: 70%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 700px) {
+    
+    /* HOME PAGE */
+    #title > h1{
+        font-size: larger;
+    }
+    #title{
+        width: 100%;
+        display: flex;
+        margin-right: 6%;
+        justify-content: start;
+    }
+
+    #content{
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    #follow{
+        margin-top: 15%;
+        justify-content: center;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    #follow > h3 {
+        font-size: medium;
+    }
+
+    #path{
+        background-image: url('/h-client/images/path_orange_r_m.png');
+        height: 100px;
+        width: 200px;
+    }
+
+    /* QUESTIONNAIRE PAGE */
+    #qu-form{
+        margin-top: 5%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    form {
+        width:90%;
+        margin-top: 5%;
+        margin-right: 3%;
+    }
+
+    #age{
+        width: 27%;
+    }
+    
+    #position{
+        width: 40%;
+    }       
+
+    #submit-qu{
+        justify-content:center;
+    }
+}
